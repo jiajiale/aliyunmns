@@ -1,0 +1,26 @@
+{
+    "name": "jiajiale/aliyunmns",
+    "description": "aliyunmns",
+    "keywords": ["aliyun", "mns", "queue"],
+    "homepage": "http://www.aliyun.com/product/mns/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jiajiale",
+            "email": "jiajiale@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=5.5",
+        "guzzlehttp/guzzle": "^6.2.1",
+        "psr/http-message": "^1.0"
+    },
+    "require-dev" : {
+    },
+    "autoload": {
+        "psr-4": {
+            "AliyunMNS\\": "src/"
+        }
+    }
+}
